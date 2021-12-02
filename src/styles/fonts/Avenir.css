@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url('./Avenir/Avenir-Bold.ttf') format('ttf'),
+       url('./Avenir/Avenir-Bold.woff') format('woff');
+  font-weight:  800;
+  font-style:   bold;
+  font-stretch: bold;
+}

@@ -1,0 +1,14 @@
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.intro section {
+  margin-top: 10rem;
+}
+ol {
+  list-style: decimal-leading-zero;
+  text-align: left;
+}

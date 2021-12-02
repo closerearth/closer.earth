@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Avenir';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(83,198,255);
+  min-height: 100vh;
+  background-image: linear-gradient(177deg, #51b8ec 0%, #a3ffe4 100%);
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+body {
+	line-height: 1;
+}
+input, textarea, button {
+	border: none;
+	padding: 10px;
+	outline: none;
+  font-family: 'Avenir';
+	font-size: inherit;
+}
+a, a:visited {
+  color: #5f83f4;
+}
+a.button, a.button:visited, button {
+  background-color: #5f83f4;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+.doclink {
+  padding: 1rem;
+}
+code {
+}
+h1, h2, h3, h4 {
+  font-weight: 800;
+}
+h1 {
+  font-size: 3rem;
+}
