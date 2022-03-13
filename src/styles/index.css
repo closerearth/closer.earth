@@ -3,13 +3,12 @@ body {
   font-family: 'Avenir';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(83,198,255);
+  background: black;
   min-height: 100vh;
-  background-image: linear-gradient(177deg, #51b8ec 0%, #a3ffe4 100%);
+  background-image: linear-gradient(227deg, #000000 0%, #210736 100%);
   background-size: cover;
   color: white;
   font-size: 20px;
-  text-align: center;
 }
 body {
 	line-height: 1;
@@ -39,4 +38,18 @@ h1, h2, h3, h4 {
 }
 h1 {
   font-size: 3rem;
+}
+.mt-2 {
+  margin-top: 1rem;
+}
+.btn-primary, .btn-primary:visited {
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 3rem;
+  background-image: linear-gradient(227deg, #07063e 0%, #31118b 100%);
+  padding: 1rem 2rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }

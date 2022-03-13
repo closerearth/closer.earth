@@ -1,0 +1,30 @@
+.intro {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 5rem;
+  max-width: 55rem;
+}
+.intro section {
+  padding: 5rem 0;
+}
+ol {
+  list-style: decimal-leading-zero;
+  text-align: left;
+  margin-left: 2.5rem;
+}
+h1 {
+  font-size: 6rem;
+}
+h2 {
+  font-size: 3rem;
+}
+section h1, section h2, section h3 {
+  margin-bottom: 1rem;
+}
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
